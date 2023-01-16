@@ -1,0 +1,68 @@
+body{
+    font-style: italic; 
+    background-image: url("/imgs/woman.jpg");
+    background-size: cover;
+}
+.container{
+    background-color: rgb(216, 216, 216);
+    max-width: 300px;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+h1{
+    color: rgb(253, 255, 255);
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 250, 250);
+    font-style: italic;
+    text-align: center;  
+}
+
+.form-group{
+    padding: 10px;
+    margin: 5px;
+}
+input{
+    max-width: 200px;
+}
+
+
+.botao{
+    padding: 5px;
+    border-radius: 1rem;
+    border: solid rgb(2, 160, 165);
+    background-color:rgb(173, 239, 241) ;
+    font-style: italic;
+    margin: 5px;
+}
+
+label{
+    padding: 5px;
+    display: block;
+    color: rgb(0, 197, 197);
+}
+
+span{
+display: block;
+}
+
+
+@media screen and (max-width: 1200px ) {
+body{
+    background-image: none;
+    background-color: black;
+}
+}
+
+
+
+
+
+
+
