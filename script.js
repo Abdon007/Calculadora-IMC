@@ -37,7 +37,7 @@ btnEnviar.addEventListener('click', function (e) {
     cxImc.value = imc;
     let sit = SituacaoDoPeso(imc);
     aviso.textContent = sit;
-    e.preventDefault();
+    
   
     function SituacaoDoPeso(imc) {
         let situacao = '';
